@@ -11,7 +11,7 @@
         <h1>Hello.. Is It me ? Your looking for ...</h1>
     </header>
     <main>
-        <img src=<?php echo "Views/Templates/images/Hello_Lionel.jpg" ?> alt="Lionel Richie">
+        <img src= "Views/Templates/images/Hello_Lionel.jpg"  alt="Lionel Richie">
     </main>
 </body>
 
