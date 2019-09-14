@@ -12,6 +12,8 @@ html {
 header {
   width: 100%;
   height: 10%;
+  color: #fff;
+  background-color: #70253C;
 }
 
 #container {
@@ -27,6 +29,8 @@ header {
 
 button {
   width: 33%;
+  color: #fff;
+  background-color: #70253C;
 }
 
 footer {
