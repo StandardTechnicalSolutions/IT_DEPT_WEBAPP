@@ -40,6 +40,7 @@ header {
   height: 5%;
   font-size: 30px;
   background-color: #F3D03E;
+  font-weight: bold;
   display: flex;
   text-align: center;
   flex-wrap: nowrap;
