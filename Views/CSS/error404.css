@@ -1,0 +1,116 @@
+/* ------------------------------- GENERAL -----------------------------------*/
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 ;
+  background-color: #F4ECD9;
+}
+
+#body-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  margin: 0;
+  width: 100%;
+  height: 10%;
+  color: #fff;
+  background-color: #70253C;
+  font-size: 30px;
+  display: flex;
+  text-align: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#message {
+  width: 100%;
+  height: 5%;
+  font-size: 30px;
+  background-color: #F3D03E;
+  font-weight: bold;
+  display: flex;
+  text-align: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 20px #808080;
+}
+
+/* ------------------------------- Image -------------------------------------*/
+
+#image-container {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  text-align: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  margin-bottom: 2%;
+  width: 600px;
+  height: 438px;
+  box-shadow: 5px 5px 5px #808080;
+}
+
+/* ------------------------------- Footer ------------------------------------*/
+
+footer {
+  margin: 0;
+  width: 100%;
+  height: 10%;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #6F263D;
+  display: flex;
+  text-align: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer-link {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#footer-link:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+#footer-link:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}

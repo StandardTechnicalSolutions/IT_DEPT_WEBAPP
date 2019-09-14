@@ -4,15 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Error Resource Not Found</title>
+    <link rel="stylesheet" href="../CSS/error404.css">
 </head>
 
 <body>
+  <div id="body-container">
     <header>
-        <h1>Hello.. Is It me ? Your looking for ...</h1>
+        <h1>Error 404</h1>
     </header>
-    <main>
-        <img src= "Views/Templates/images/Hello_Lionel.jpg"  alt="Lionel Richie">
-    </main>
+
+    <div id="message">
+      <p>Hello... Is it me you're looking for?</p>
+    </div>
+
+    <div id="image-container">
+      <img src="Images/Hello_Lionel.jpg" alt="Lionel Richie"
+      onmouseover="this.src='Images/Hello_Lionel_R.gif';"
+      onmouseout="this.src='Images/Hello_Lionel.jpg';"/>
+      <!-- <img src= "Views/Templates/images/Hello_Lionel.jpg"  alt="Lionel Richie"> -->
+    </div>
+
+    <footer>
+        <div id="footer">
+          <a id="footer-link" href="https://github.com/StandardTechnicalSolutions" target="_blank">&copy Standard Tech</a>
+        </div>
+    </footer>
+  </div>
 </body>
 
 </html>
