@@ -47,6 +47,7 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  box-shadow: 5px 5px 20px #808080;
 }
 
 /* ------------------------------- Buttons -----------------------------------*/
