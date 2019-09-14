@@ -9,7 +9,7 @@
             require __DIR__ . "/index.html";
             break;
         default:
-            require __DIR__ . "/Views/Templates/err404.php";
+            require __DIR__ . "/Views/Templates/err404.html";
             break;
     }
 
