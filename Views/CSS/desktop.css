@@ -20,6 +20,18 @@ html {
   align-items: center;
 }
 
+.displayPicture {
+  border: solid #E29C45 .3rem;
+  border-radius: .8rem;
+  margin-top: 2rem;
+  height: 70%;
+  width: 70%;
+}
+
+a {
+  text-decoration: none;
+}
+
 header {
   margin: 0;
   width: 100%;
