@@ -31,7 +31,7 @@
                 </ul>
             </aside>
 
-            <div id="main-content">
+            <div id="mainContent">
 
             </div>
         </main>
