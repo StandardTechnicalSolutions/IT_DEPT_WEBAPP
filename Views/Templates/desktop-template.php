@@ -24,10 +24,10 @@
         <main>
             <aside id="side-bar">
                 <ul>
-                    <li><a href="#"><!-- <?php echo placeholderA  ?> --></a>Fall</li>
-                    <li><a href="#"><!-- <?php echo placeholderB ?> --></a>Autumn</li>
-                    <li><a href="#"><!-- <?php echo placeholderC ?> --></a>Winter</li>
-                    <li><a href="#"><!-- <?php echo placeholderD ?> --></a>Summer</li>
+                    <li><?php echo $placeHolderA; ?></li>
+                    <li><?php echo $placeHolderB; ?></li>
+                    <li><?php echo $placeHolderC; ?></li>
+                    <li><?php echo $placeHolderD; ?></li>
                 </ul>
             </aside>
 
@@ -37,5 +37,6 @@
         </main>
         <footer> &copy Standard Tech </footer>
       </div>
+      <?php echo $script; ?>
     </body>
 </html>
