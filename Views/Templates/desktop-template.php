@@ -19,7 +19,7 @@
         <ul>
           <li><a href="/?URI=desktop-directions">Directions</a></li>
           <li><a href="/?URI=desktop-order">Order</a></li>
-          <li><a href="">TBD</a></li>
+          <li><a href="/?URI=desktop-equipment-used">Equipment</a></li>
           <li><a href="">TBD</a></li>
         </ul>
       </nav>

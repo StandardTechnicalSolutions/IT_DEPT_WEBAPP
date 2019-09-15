@@ -17,6 +17,9 @@
                 require __DIR__ . "/Views/Templates/Sub_Templates/form-template.php";
                 require __DIR__ . "/Views/Templates/desktop-template.php";
                 break;
+            case "desktop-equipment-used":
+                require __DIR__ . "/Controllers/equipmentContent.php";
+                require __DIR__ . "/Views/Templates/desktop-template.php";
             case "email":
                 require __DIR__ . "/Controllers/EmailUser.php";
                 require __DIR__ . "/Controllers/genericPageFillers.php";
