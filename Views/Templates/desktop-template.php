@@ -39,7 +39,11 @@
         <?php echo $mainPlaceHolder; ?>
       </div>
     </main>
-    <footer> &copy Standard Tech </footer>
+    <footer>
+      <div id="footer">
+        <a id="footer-link" href="https://github.com/StandardTechnicalSolutions" target="_blank">&copy Standard Tech</a>
+      </div>
+    </footer>
   </div>
   <?php echo $script; ?>
 </body>
