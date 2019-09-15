@@ -8,6 +8,7 @@ const eliteDesk = document.querySelector("#EliteDesk");
 const windows10 = document.querySelector("#Windows");
 
 const image = document.createElement("img");
+image.className = "displayPicture";
 
 // Add on click event listeners to each of the equipment links
 opScan.addEventListener("click", (event) => {

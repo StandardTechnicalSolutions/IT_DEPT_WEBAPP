@@ -20,6 +20,11 @@ html {
   align-items: center;
 }
 
+.displayPicture {
+  height: 70%;
+  width: 70%;
+}
+
 header {
   margin: 0;
   width: 100%;
