@@ -1,6 +1,6 @@
 // gets a reference to the mainContent section of 
 // the equipment page on the IT-DEPT web page
-const mainContent = document.getElementById("mainContent");
+const mainContent = document.getElementById("main-content");
 // Select the various equipment links
 const opScan = document.querySelector("#Scan");
 const omr = document.querySelector("#OMR");

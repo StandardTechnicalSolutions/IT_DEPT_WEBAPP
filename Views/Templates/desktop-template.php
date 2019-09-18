@@ -4,38 +4,50 @@
 <head>
   <meta charset="UTF-8">
   <title>BU IT DEPT</title>
+  <!-- <link rel="stylesheet" href="../CSS/desktop.css"> -->
   <link rel="stylesheet" href="Views/CSS/desktop.css">
-  <?php echo $extraStyle ?>
 </head>
-
 
 <body>
   <div id="body-container">
     <header>
       <div id="logo-container">
-        <a href="/?URI=desktop"><img src="https://www.bloomu.edu/sites/default/themes/bloom/logo.png" alt="Bloomsburg university building picture"></a>
+        <img src="https://www.bloomu.edu/sites/default/themes/bloom/logo.png" alt="">
       </div>
-
-      <nav id="nav-bar">
-        <ul>
-          <li><a href="/?URI=desktop-directions">Directions</a></li>
-          <li><a href="/?URI=desktop-order">Order</a></li>
-          <li><a href="/?URI=desktop-equipment-used">Equipment</a></li>
-          <li><a href="">TBD</a></li>
-        </ul>
-      </nav>
     </header>
+
+    <nav id="nav-bar">
+      <ul>
+        <!-- <li><a href=""></a>hello</li>
+        <li><a href=""></a>everyone</li>
+        <li><a href=""></a>intelligence</li>
+        <li><a href=""></a>confirmation</li> -->
+        <li><a href="/?URI=desktop-directions">Directions</a></li>
+        <li><a href="/?URI=desktop-order">Order</a></li>
+        <li><a href="/?URI=desktop-equipment-used">Equipment</a></li>
+        <li><a href="">TBD</a></li>
+      </ul>
+    </nav>
+
     <main>
       <aside id="side-bar">
         <ul>
-          <li><?php echo $placeHolderA; ?></li>
-          <li><?php echo $placeHolderB; ?></li>
-          <li><?php echo $placeHolderC; ?></li>
-          <li><?php echo $placeHolderD; ?></li>
+          <li><a href="#">
+              <?php echo $placeHolderA;  ?>
+              <!--Fall--></a></li>
+          <li><a href="#">
+              <?php echo $placeHolderB; ?>
+              <!--Autumn--></a></li>
+          <li><a href="#">
+              <?php echo $placeHolderC; ?>
+              <!--Winter--></a></li>
+          <li><a href="#">
+              <?php echo $placeHolderD; ?>
+              <!--Summer--></a></li>
         </ul>
       </aside>
 
-      <div id="mainContent">
+      <div id="main-content">
         <?php echo $mainPlaceHolder; ?>
       </div>
     </main>
@@ -45,6 +57,7 @@
       </div>
     </footer>
   </div>
+
   <?php echo $script; ?>
 </body>
 

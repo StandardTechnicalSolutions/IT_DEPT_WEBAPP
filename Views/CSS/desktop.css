@@ -23,9 +23,9 @@ html {
 .displayPicture {
   border: solid #E29C45 .3rem;
   border-radius: .8rem;
-  margin-top: 2rem;
-  height: 70%;
-  width: 70%;
+  /* margin-top: 2rem; */
+  height: 100%;
+  width: 100%;
 }
 
 a {
@@ -179,6 +179,12 @@ main {
   width: 85%;
   height: 100%;
   background-color: #D9D8D6;
+  display: flex;
+  text-align: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ------------------------------- Footer ------------------------------------*/
