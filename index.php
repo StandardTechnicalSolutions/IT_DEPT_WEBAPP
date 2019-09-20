@@ -20,6 +20,7 @@
             case "desktop-equipment-used":
                 require __DIR__ . "/Controllers/equipmentContent.php";
                 require __DIR__ . "/Views/Templates/desktop-template.php";
+                break;
             case "email":
                 require __DIR__ . "/Controllers/EmailUser.php";
                 require __DIR__ . "/Controllers/genericPageFillers.php";
@@ -29,6 +30,7 @@
 
             default:
                 require __DIR__ . "/Views/Templates/err404.html";
+                break;
         }
     } else {
         require __DIR__ . "/webAppPortal.html";
