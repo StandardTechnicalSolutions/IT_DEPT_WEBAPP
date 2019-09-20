@@ -35,6 +35,12 @@ html {
 
 a {
   text-decoration: none;
+  color: #FFF;
+  opacity: 0.90;
+}
+
+a:hover {
+  opacity: 1;
 }
 
 header {
@@ -105,11 +111,6 @@ header {
   align-items: center;
   color: #fff;
   cursor: pointer;
-}
-
-#nav-bar li:hover {
-  color: #000;
-  background-color: #F4ECD9;
 }
 
 /* ----------------------------- Main Content --------------------------------*/
