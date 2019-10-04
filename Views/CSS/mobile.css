@@ -1,0 +1,85 @@
+/* ------------------------------- GENERAL -----------------------------------*/
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 ;
+  background-color: #F4ECD9;
+}
+
+#main-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu-container {
+  box-shadow: 0 0 20px 0 #000;
+}
+
+/* ------------------------------- Main --------------------------------------*/
+#content-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#img1,
+#img2,
+#img3,
+#img4,
+#img5 {
+  width: 70%;
+  height: 20%;
+  display: flex;
+  text-align: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  margin-bottom: 1rem;
+}
+
+#img1 {
+  margin-top: 1rem;
+}
+
+/* ----------------------------- Footer --------------------------------------*/
+#footer-container {
+  margin: 0;
+  width: 100%;
+  height: 5%;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #6F263D;
+  display: flex;
+  text-align: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

@@ -3,40 +3,70 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Bloomsburg IT-DEPT</title>
-        
+
         <link rel="stylesheet" href="../CSS/hamburger.css">
+        <link rel="stylesheet" href="../CSS/mobile.css">
     </head>
     <body>
-        <!-- Hamburger menu-->
-        <header id="accordion">
-            <section id="item1">
-                <img src="https://www.bloomu.edu/sites/default/themes/bloom/logo.png" alt="">
-                <a href="#item1">
-                    <h1> &#9776; </h1>
-                </a>
-                <div id="ulcontainer">
-                    <ul>
-                        <li><a>First Link</a></li>
-                        <li><a>Second Link</a></li>
-                        <li><a>Third Link</a></li>
-                        <li><a>Fourth Link</a></li>
-                    </ul>
-                </div>
-            </section>
-        </header>
+      <div id="menu-container">
+      <!-- Logo -->
+      <div id="logo-container">
+        <img id="bu-pic" src="https://www.bloomu.edu/sites/default/themes/bloom/logo.png" alt="">
+      </div>
 
-        <!-- Main content -->
+      <!-- Hamburger menu-->
+      <header id="accordion">
+          <section id="item1">
+              <a href="#item1">
+                  <h1> &#9776; </h1>
+              </a>
+              <div id="ulcontainer">
+                  <ul>
+                      <li><a>First Link</a></li>
+                      <li><a>Second Link</a></li>
+                      <li><a>Third Link</a></li>
+                      <li><a>Fourth Link</a></li>
+                  </ul>
+              </div>
+          </section>
+      </header>
+    </div>
+
+      <!-- Main content -->
+      <div id="main-container">
         <main>
-            <div id="main">
+            <div id="content-container">
                 <!-- <?php echo placeholderMobile; ?>  this will be a  tag-->
-            </div>
-        </main>
+                <div id="img1">
+                  a
+                </div>
 
-        <footer>
-            <div id="footer">
-                <!-- <?php echo placeholderMobileFooter; ?> this will be a tag  -->
+                <div id="img2">
+                  a
+                </div>
+
+                <div id="img3">
+                  a
+                </div>
+
+                <div id="img4">
+                  a
+                </div>
+
+                <div id="img5">
+                  a
+                </div>
             </div>
-        </footer>
+          </div>
+      </div>
+
+      <!-- Footer -->
+      <footer id=footer-container>
+          <div id="footer">
+            &copy
+              <!-- <?php echo placeholderMobileFooter; ?> this will be a tag  -->
+          </div>
+      </footer>
 
         <script src="../JavaScript/hamburger.js"></script>
     </body>

@@ -1,21 +1,15 @@
 a {
-  color: black;
+  color: #fff;
   text-decoration: none;
-}
-
-
-
-#accordion{
-  z-index: 31;
 }
 
 #accordion section {
 
 
-background-color: #70253C;
+background-color: #6F263D;
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
 }
 
 #accordion section div {
@@ -23,33 +17,31 @@ background-color: #70253C;
 }
 
 #accordion section#item1 a {
-  color: black;
 /*   align-self: center; */
   text-decoration: none;
 }
 
-#accordion section#item1 a:hover{
+#accordion section#item1 ul a:hover{
   text-decoration: underline;
 }
 
-#accordion section#close a:hover{
+#accordion section#close ul a:hover{
   text-decoration: underline;
 }
 
 
 #accordion section#item1:target div {
-  
+
   list-style: none;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   align-self: center;
 /*   justify-content: center; */
 /*   align-items: center; */
 /*      justify-content: center;  */
 /*      align-items: center;  */
-  
-  z-index: 10;
 }
+
 
  ul {
   display: flex;
@@ -57,7 +49,7 @@ background-color: #70253C;
   list-style: none;
 /*   align-items: space-between; */
 /*    flex-direction: column; */
-/*  align-items: center; 
+/*  align-items: center;
  justify-content: space-around; */
 /*   align-items: space-between; */
 }
@@ -74,20 +66,30 @@ display: block;
  text-align: center;
 /*  align-self: center; */
  align-self: space-between;
-  
+
   padding-bottom: 1.5em;
-  
+
 }
 
 li a {
 /*   text-align: center; */
  padding-right: 2em;
-
 }
 
+#logo-container {
+  width: 100%;
+  height: 5%;
+  background-color: #6F263D;
+  display: flex;
+  text-align: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
-#item1 img {
-
-  width: 70%:
-  height: 70%;
+ #bu-pic {
+  width: 100px;
+  height: 50px;
+  padding-top: 1rem;
 }
